@@ -12,7 +12,8 @@
       ],
       "settings": {
         "chat.disableAIFeatures": true,
-        "chat.agent.enabled": false
+        "chat.agent.enabled": false, 
+        "jupyter.widgetScriptSources": ["jsdelivr.com","unpkg.com"]
       }
     }
   }
