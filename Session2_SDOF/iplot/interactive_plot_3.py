@@ -47,7 +47,7 @@ plt.subplots_adjust(left=0.1, bottom=0.4)
 
 wn=calcW_n(k=k,m=m)
 
-text_wn = plt.text(-43, 0.25, f'$\omega_n$ = {convert_pulsation(wn):.2f}Hz',
+text_wn = plt.text(-43, 0.25, f'$\\omega_n$ = {convert_pulsation(wn):.2f}Hz',
         style ='italic',
         fontsize = 10,
         bbox ={'facecolor':'green',
