@@ -3,11 +3,7 @@
 
   "image": "mcr.microsoft.com/devcontainers/python:3.12",
 
-  "features": {
-    "ghcr.io/astral-sh/uv:2": {}
-  },
-
-  "postCreateCommand": "uv sync && uv run python -m ipykernel install --user --name mechanical-vibrations-2026-2027 --display-name 'Python (Mechanical Vibrations 2026-2027)'",
+  "postCreateCommand": "pip install uv && uv sync && uv run python -m ipykernel install --user --name mechanical-vibrations-2026-2027 --display-name \"Python (Mechanical Vibrations 2026-2027)\"",
 
   "customizations": {
     "vscode": {
@@ -17,7 +13,6 @@
       ],
       "settings": {
         "python.defaultInterpreterPath": "${containerWorkspaceFolder}/.venv/bin/python",
-        "jupyter.notebook.defaultKernel": "mechanical-vibrations-2026-2027",
         "github.copilot.enable": {
           "*": false
         }
