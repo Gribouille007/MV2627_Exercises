@@ -11,9 +11,8 @@
         "ms-toolsai.jupyter"
       ],
       "settings": {
-        "github.copilot.enable": {
-          "*": false
-        }
+        "chat.disableAIFeatures": true,
+        "chat.agent.enabled": false
       }
     }
   }
