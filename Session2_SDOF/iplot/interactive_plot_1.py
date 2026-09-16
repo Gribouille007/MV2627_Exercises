@@ -25,7 +25,7 @@ wn=calcW_n(k=init_k,m=init_m)
 Xi=calcXi(c=init_c,k=init_k,m=init_m)
 wd= wn*np.sqrt(1-Xi**2)
 
-text_wn = plt.text(-43, 0.25, f'$\omega_n$ = {wn:.2f}',
+text_wn = plt.text(-43, 0.25, f'$\\omega_n$ = {wn:.2f}',
         style ='italic',
         fontsize = 10,
         bbox ={'facecolor':'green',
@@ -37,7 +37,7 @@ text_Xi = plt.text(-43, 0.2, f'$ \\xi $ = {Xi*100:.2f}%',
         bbox ={'facecolor':'green',
             'alpha':0.6, 'pad':2})
 
-text_wd = plt.text(-43, 0.15, f'$ \omega_d $ = {wd:.2f}',
+text_wd = plt.text(-43, 0.15, f'$ \\omega_d $ = {wd:.2f}',
         style ='italic',
         fontsize = 10,
         bbox ={'facecolor':'green',
@@ -79,9 +79,9 @@ def update(fixed):
     wn=calcW_n(k=k_slider.val,m=m_slider.val)
     wd= wn*np.sqrt(1-Xi**2)
 
-    text_wn.set_text(f'$\omega_n$ = {convert_pulsation(wn):.2f}Hz')
+    text_wn.set_text(f'$\\omega_n$ = {convert_pulsation(wn):.2f}Hz')
     text_Xi.set_text(f'$ \\xi $ = {Xi*100:.2f}%')
-    text_wd.set_text(f'$ \omega_d $ = {convert_pulsation(wd):.2f}Hz')
+    text_wd.set_text(f'$ \\omega_d $ = {convert_pulsation(wd):.2f}Hz')
     text_wn.set_position((-43,np.max(h)))
     text_Xi.set_position((-43,np.max(h)*(1-0.2)))
     text_wd.set_position((-43,np.max(h)*(1-0.4)))
