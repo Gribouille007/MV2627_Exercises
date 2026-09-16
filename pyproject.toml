@@ -1,5 +1,5 @@
 [project]
-name = "Mechanical Vibrations 2026-2027"
+name = "mechanical-vibrations-2026-2027"
 version = "0.1.0"
 description = "Repository containing jupyter notebooks for the exercise sessions of the Mechanical Vibrations 2026-2027 course"
 readme = "README.md"
