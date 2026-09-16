@@ -1,4 +1,5 @@
-# Vibration and acoustics
+# Mechanical Vibrations 2026-2027
+
 This repo contains the jupyter notebooks for the exercise sessions of the Mechanical Vibrations 2026-2027 course taught by Prof. Deraemaekers and Prof. Weijtjens at the VUB/ULB.
 
 The exercise sessions comprise 6 sessions.
